@@ -1,0 +1,12 @@
+[package]
+name = "ash-window-9"
+version = "0.1.0"
+authors = ["Friz64 <friz64mc@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ash = { git = "https://github.com/MaikKlein/ash.git", rev = "bb720dd" }
+ash-window = { git = "https://github.com/norse-rs/ash-window.git", rev = "917d2e6" }
+winit = "0.22"
